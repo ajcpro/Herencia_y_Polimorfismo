@@ -57,7 +57,7 @@ public class Leer {
 				System.out.println("Vuelve a inroducir el dato, por favor: ");
 				error = true;
 			} catch(NumberFormatException e){
-				System.out.println("El dato introducido no es entero");
+				System.out.println("El dato introducido no es decimal");
 				System.out.println("Vuelve a inroducir el dato, por favor: ");
 				error=true;
 			}
@@ -78,7 +78,7 @@ public class Leer {
 				System.out.println("Vuelve a inroducir el dato, por favor: ");
 				error = true;
 			} catch(NumberFormatException e){
-				System.out.println("El dato introducido no es entero");
+				System.out.println("El dato introducido no es decimal");
 				System.out.println("Vuelve a inroducir el dato, por favor: ");
 				error=true;
 			}
